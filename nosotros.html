@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellitas en mi vida</title>
+    <link rel="icon" type="image/x-icon" href="img/logotipo-menu.jpg"/>
+    <!--ESTILOS CSS-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!--ESTILOS FONT-->
+    <link rel="stylesheet" href="css/font.css">
+    <!--ESTILOS CSS-->
+    <link rel="stylesheet" href="js/javascript.jss">
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/headers/">
+    <!--ICONOS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet"/>
+    <!--Jquery CDN-->
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <!--Icono Precarga-->
+    <script>
+        $(window).on("load", function(){
+            $(".contenidos").css("opacity", 1) 
+            $("#precarga").css("display", "none");
+        });
+    </script>
+</head>
+<body>
+    <div id="precarga">
+        <img src="img/precarga.gif" alt="" width="200" height="200">
+    </div>
+<div class="contenidos">
+<!--INICIO NAVEGADOR-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container"> <!--style="background-color: red;"-->
+            
+        <a href="index.html" class="px-4">
+            <img src="img/logotipo-menu.jpg" alt="">
+        </a>
+        <a class="navbar-brand" href="#page-top">Huellitas en Mi Vida</a>
+
+        <button class="navbar-toggler navbar-toggler-right" style="border: none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="bi bi-three-dots"></span></button>
+
+            <div class="collapse navbar-collapse " id="navbarResponsive">
+                <ul class="navbar-nav ms-auto my-0 my-lg-3">
+                    <li class="nav-item"><a class="nav-link p-2" href="index.html">Inicio</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle p-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nosotros</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="nosotros.html">Nosotros</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="nosotros.html#mision">Misión</a></li>
+                            <li><a class="dropdown-item" href="nosotros.html#vision">Visión</a></li>
+                            <li><a class="dropdown-item" href="nosotros.html#principios">Principios y valores</a></li>
+                            <li><a class="dropdown-item" href="nosotros.html#nuestra-historia">Nuestra Historia</a></li>
+                            <li><a class="dropdown-item" href="nosotros.html#nuestro-equipo">Nuestro Equipo</a></li>
+                            <li><a class="dropdown-item" href="nosotros.html#convenios">Convenios y alianzas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle p-2" href="nuestro_trabajo.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nuestro Trabajo</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="nuestro_trabajo.html">Nuestro Trabajo</li>
+                            <li><hr class="dropdown-divider"></li>
+                            <!--<li><a class="dropdown-item" href="nuestro_trabajo.html#eventos">Eventos y Actividades</a></li>-->
+                            <li><a class="dropdown-item" href="nuestro_trabajo.html#galeria">Galeria</a></li>
+                            <li><a class="dropdown-item" href="nuestro_trabajo.html#adopciones">Adopciones</a></li>
+                            <li><a class="dropdown-item" href="nuestro_trabajo.html#sebusca">Se Busca</a></li>
+                            <li><a class="dropdown-item" href="nuestro_trabajo.html#casos">Casos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link p-2" href="donacion.html">Donación</a></li>
+                    <li class="nav-item"><a class="nav-link p-2" href="campañas.html">Campañas</a></li>
+                    <li class="nav-item"><a class="nav-link p-2" href="redes_sociales.html">Redes Sociales</a></li>
+                
+                </ul>
+                <div class="col-md-3 text-end"> 
+            
+            <button type="button" class="btn btn-danger align-items-center" style="border-radius: 50px;"><a href="login.php" style="text-decoration: none; color:white; font-size: 0.8rem;">Iniciar Sesion</a></button>
+      </div>
+            </div>
+    </div>
+    </div>
+</nav>
+<!--FIN NAVEGADOR-->
+<!--INICIO REDES SOCIALES FLOTANTES-->
+<div class="flotante">
+<input type="checkbox" id="btn-mas">
+<div class="redes">
+    <a href="https://m.facebook.com/HuellitasEnMiVidaSC" target="_blank" class="bi bi-facebook"></a>
+    <a href="https://wa.me/59169154788?text=Hola%20Albergue%20Huellitas%20en%20Mi%20Vida,%20" target="_blank" class="bi bi-whatsapp"></a>
+    <a href="https://www.instagram.com/huellitasenmivida/?igshid=YmMyMTA2M2Y%3D" target="_blank" class="bi bi-instagram"></a>
+    <a href="https://www.tiktok.com/@huellitas_en_mi_vida?_t=8WEQC2BFahJ&_r=1" target="_blank" class="bi bi-tiktok"></a>
+    <a href="https://goo.gl/maps/sSVHuHSjg4PcWm4x5" class="bi bi-geo-alt-fill"></a>
+    <a href="donacion.html" target="_blank" class="bi bi-heart-fill"></a>
+</div>
+<div class="btn-mas">
+    <label for="btn-mas" class="bi bi-plus"></label>
+</div>
+</div>
+<!--FIN REDES SOCIALES FLOTANTES-->
+<!--INICIO NOSOTROS, VISION, MISION, VALORES-->
+<section class="titulo m-5" id="nosotros">
+  <div class="container px-4 px-lg-5">
+      <h2 class="text-center mt-0">Nosotros</h2>
+      <hr class="divider">
+      <p class="text-center" style="font-size: 20px">Esta es tu página Acerca de. Es tu oportunidad para compartir tu historia sobre quién eres y qué tiene tu sitio web para ofrecer. Haz doble clic en la caja de texto para comenzar a editar tu contenido y asegúrate de que todos los detalles relevantes que quieres compartir están incluidos.</p>
+  </div>
+</section>
+<div class="container-fluid">
+  <div class="row align-items-center justify-content-center">
+    <div class="col-sm-12 col-md-6 text-center p-5" id="mision">
+      <h4>Misión</h4>
+      <p>​Mejorar el bienestar de los perritos, y acabar con la crueldad y la negligencia hacia ellos, con la cría descontrolada y el abandono de los mismos a través de rescates, rehabilitación y tratamiento veterinario.</p>
+    </div>
+    <div class="col-sm-12 col-md-6">
+      <img src="img/mision.png" alt="" width="100%" height="auto">
+    </div>
+
+    <div class="col-sm-12 col-md-6">
+      <img src="img/vision.png" alt="" width="100%" height="auto">
+    </div>
+    <div class="col-sm-12 col-md-6 text-center p-5" id="vision">
+      <h4>Visión</h4>
+      <p>Continuar rescatando animales necesitados con la esperanza de poder cerrar las puertas porque no sea necesario seguir haciéndolo.</p>
+    </div>
+    
+    <div class="col-sm-12 col-md-6 text-center p-5" id="principios">
+      <h4>Principios y Valores</h4>
+      <p>Tolerancia cero con el maltrato animal en nuestra sociedad. Hacer frente a aquellos problemas que ponen en riesgo a los animales. Estándares elevados en la gestión del refugio y en el cuidado de los animales</p>
+    </div>
+    <div class="col-sm-12 col-md-6">
+      <img src="img/valores.png" alt="" width="100%" height="auto">
+    </div>
+
+  </div>
+</div>
+<!--FIN NOSOTROS, VISION, MISION, VALORES-->
+<!--INICIO NUESTRA HISTORIA-->
+<section class="titulo m-5 pb-1" id="nuestra-historia">
+  <div class="container px-4 px-lg-5">
+      <h2 class="text-center mt-0">Nuestra Historia</h2>
+      <hr class="divider">
+  </div>
+</section>
+
+
+<!--<section class="page-section mb-5" id="">
+  <div class="container">
+      <ul class="timeline">
+          <li>
+              <div class="timeline-image"><img class="rounded-circle img-fluid" src="img/logotipo.jpg" alt="..." /></div>
+              <div class="timeline-panel">
+                  <div class="timeline-heading">
+                      <h4>2013-2014</h4>
+                      <h4 class="subheading">Nace la de idea de un albergue</h4>
+                  </div>
+                  <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+              </div>
+          </li>
+          <li class="timeline-inverted">
+              <div class="timeline-image"><img class="rounded-circle img-fluid" src="img/logotipo.jpg" alt="..." /></div>
+              <div class="timeline-panel">
+                  <div class="timeline-heading">
+                      <h4>2015</h4>
+                      <h4 class="subheading">Se establece el nombre "Huellitas en Mi Vida"</h4>
+                  </div>
+                  <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+              </div>
+          </li>
+          <li>
+              <div class="timeline-image"><img class="rounded-circle img-fluid" src="img/logotipo.jpg" alt="..." /></div>
+              <div class="timeline-panel">
+                  <div class="timeline-heading">
+                      <h4>Diciembre 2018</h4>
+                      <h4 class="subheading">El albergue es reconocido</h4>
+                  </div>
+                  <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+              </div>
+          </li>
+          <li class="timeline-inverted">
+              <div class="timeline-image"><img class="rounded-circle img-fluid" src="img/logotipo.jpg" alt="..." /></div>
+              <div class="timeline-panel">
+                  <div class="timeline-heading">
+                      <h4>Actualmente 2022</h4>
+                      <h4 class="subheading">Mejoras y crecimiento</h4>
+                  </div>
+                  <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+              </div>
+          </li>
+          <li class="timeline-inverted">
+              <div class="timeline-image">
+                  <h4>
+                      Y aquí
+                      <br />
+                      no acabada
+                      <br />
+                      nuestra historia
+                  </h4>
+              </div>
+          </li>
+      </ul>
+  </div>
+</section>-->
+<!--FIN NUESTRA HISTORIA-->
+<!--INICIO NUESTRO EQUIPO-->
+<section class="titulo m-5 pb-1" id="nuestro-equipo">
+  <div class="container px-4 px-lg-5">
+      <h2 class="text-center mt-0">Nuestro Equipo</h2>
+      <hr class="divider">
+  </div>
+</section>
+
+<section class="page-section" id="">
+  <div class="container">
+      
+      <div class="row align-items-center justify-content-center">
+          <!--<div class="col-lg-4">
+              <div class="team-member">
+                  <img class="mx-auto" src="img/testimonio1.jpg" alt="..." width="300"/>
+                  <h4>Jeovani Mollinedo</h4>
+                  <p class="text-muted">Coordinador</p>
+                  <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="bi bi-twitter"></i></a>
+                  <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="bi bi-facebook"></i></a>
+                  <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="bi bi-linkedin"></i></a>
+              </div>
+          </div>-->
+          <div class="col-lg-4">
+              <div class="team-member">
+                  <img class="mx-auto img/testimonio1.jpg" src="img/fundadora.jpeg" alt="..." width="300" />
+                  <h4>Milda Pedrazas</h4>
+                  <p class="text-muted">Fundadora</p>
+                  <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="bi bi-whatsapp"></i></a>
+                  <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="bi bi-facebook"></i></a>
+                  <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="bi bi-instagram"></i></a>
+              </div>
+          </div>
+          <!--<div class="col-lg-4">
+              <div class="team-member">
+                  <img class="mx-auto img/testimonio1.jpg" src="img/testimonio3.jpg" alt="..." width="300" />
+                  <h4>Pablo Barreda</h4>
+                  <p class="text-muted">Coordinador</p>
+                  <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="bi bi-twitter"></i></a>
+                  <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="bi bi-facebook"></i></a>
+                  <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="bi bi-linkedin"></i></a>
+              </div>
+          </div>-->
+      </div>
+      <div class="row mt-5">
+          <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Una mujer aguerrida, solidaria, empatica y sobre todo con un gran corazón, quien a lo largo de estos años fue ayudando y dandoles una segunda oportunidad a muchos animalitos, oportunidad que muy pocos los dan. </p></div>
+      </div>
+  </div>
+</section>
+<!--FIN NUESTRO EQUIPO-->
+<!--INICIO ALIADOS-->
+<section class="titulo m-5 pb-1" id="convenios">
+  <div class="container px-4 px-lg-5">
+      <h2 class="text-center mt-0">Convenios y Alianzas</h2>
+      <hr class="divider">
+  </div>
+</section>
+<div class="container pb-5">
+  <div class="row">
+    <div class="col-sm-12 col-md-3">
+      <a href="https://www.facebook.com/profile.php?id=100063510101095" target="_blank"><img src="img/alizanza1.jpg" alt="" width="300" height="200"></a>
+    </div>
+    <div class="col-sm-12 col-md-3">
+      <a href="https://www.facebook.com/SanTelmoVeterinaria/" target="_blank"><img src="img/alianza2.jpeg" alt="" width="300" height="200"></a>
+    </div>
+    <div class="col-sm-12 col-md-3">
+      <a href="https://www.facebook.com/unionagronegocios/" target="_blank"><img src="img/alianza3.jpeg" alt="" width="300" height="200"></a>
+    </div>
+    <div class="col-sm-12 col-md-3">
+      <a href="https://www.facebook.com/ifavet/" target="_blank"><img src="img/alianza4.jpeg" alt="" width="300" height="200"></a>
+    </div>
+  </div>
+</div>
+
+<!--FIN ALIADOS-->
+<!--INICIO FOOTER-->
+<footer class="footer py-4">
+    <div class="container">
+        <div class="row align-items-center py-5">
+            <div class="col-lg-4 text-center" style="color: #fff;"><h5>Copyright &copy; Huellitas en Mi Vida 2022</h5></div>
+            <div class="col-lg-4 my-3 my-lg-0 text-center">
+                <a class="btn btn-light btn-social mx-2 bi-instagram" href="https://www.instagram.com/huellitasenmivida/?igshid=YmMyMTA2M2Y%3D" target="_blank" aria-label="Instagram"></a>
+                <a class="btn btn-light btn-social mx-2 bi-facebook" href="https://m.facebook.com/HuellitasEnMiVidaSC" target="_blank" aria-label="Facebook"></a>
+                <a class="btn btn-light btn-social mx-2 bi-tiktok" href="https://www.tiktok.com/@huellitas_en_mi_vida?_t=8WEQC2BFahJ&_r=1" target="_blank" aria-label="TikTok"></a>
+                <a class="btn btn-light btn-social mx-2 bi-whatsapp" href="https://wa.me/59169154788?text=Hola%20Albergue%20Huellitas%20en%20Mi%20Vida,%20" target="_blank" aria-label="Whatsapp"></a>
+                <a class="btn btn-light btn-social mx-2 bi-geo-alt-fill" href="https://goo.gl/maps/sSVHuHSjg4PcWm4x5" target="_blank" aria-label="Ubicación"></a>
+            </div>
+            <div class="col-lg-4 text-center">
+                <a class="link-light text-decoration-none me-3" href="https://mail.google.com/mail/u/0/?ogbl#inbox" target="_blank"><h5>Mihuellita1234@gmail.com</h5></a>
+                <br>
+                <a class="link-light text-decoration-none" href="https://wa.me/59169154788?text=Hola%20Albergue%20Huellitas%20en%20Mi%20Vida,%20" target="_blank"><h5>(+591) 69154788 (+591) 60003262</h5></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--FIN FOOTER-->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("abajo",window.scrollY>0);
+    })
+
+  </script>
+  <script>
+window.addEventListener('DOMContentLoaded', event => {
+
+// Navbar
+var navbarShrink = function () {
+    const navbarCollapsible = document.body.querySelector('#mainNav');
+    if (!navbarCollapsible) {
+        return;
+    }
+    if (window.scrollY === 0) {
+        navbarCollapsible.classList.remove('navbar-shrink')
+    } else {
+        navbarCollapsible.classList.add('navbar-shrink')
+    }
+
+};
+
+// Shrink the navbar 
+navbarShrink();
+
+// Shrink the navbar when page is scrolled
+document.addEventListener('scroll', navbarShrink);
+
+// Activate Bootstrap scrollspy on the main nav element
+const mainNav = document.body.querySelector('#mainNav');
+if (mainNav) {
+    new bootstrap.ScrollSpy(document.body, {
+        target: '#mainNav',
+        offset: 74,
+    });
+};
+
+// Collapse responsive navbar when toggler is visible
+const navbarToggler = document.body.querySelector('.navbar-toggler');
+const responsiveNavItems = [].slice.call(
+    document.querySelectorAll('#navbarResponsive .nav-link')
+);
+responsiveNavItems.map(function (responsiveNavItem) {
+    responsiveNavItem.addEventListener('click', () => {
+        if (window.getComputedStyle(navbarToggler).display !== 'none') {
+            navbarToggler.click();
+        }
+    });
+});
+
+// Activate SimpleLightbox plugin for portfolio items
+new SimpleLightbox({
+    elements: '#portfolio a.portfolio-box'
+});
+
+});
+
+  </script>
+</div>
+</body>
+</html>
