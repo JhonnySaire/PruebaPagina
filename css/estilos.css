@@ -692,7 +692,17 @@ hr.divider {
   grid-auto-flow: dense;
 }
 /*FIN GALERIA ADOPCIONES*/
-
+/*INICIO GALERIA*/
+.galerias img{
+  max-width: 100%;
+  margin-bottom: 0.5em;
+  display: block;
+}
+.galerias{
+  columns: 5 300px;
+  column-gap: 0.5em;
+}
+/*FIN GALERIA*/
 /*-----------------------------------------------FIN NUESTRO TRABAJO-----------------------------------------------*/
 /*-----------------------------------------------INICIO DONACION-----------------------------------------------*/
 
